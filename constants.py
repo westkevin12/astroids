@@ -13,3 +13,13 @@ PLAYER_SPEED = 200
 PLAYER_SHOOT_SPEED = 500
 PLAYER_SHOOT_COOLDOWN = 0.3
 SHOT_RADIUS = 5
+
+# Power-up settings
+POWERUP_SPAWN_CHANCE = 0.3  # 30% chance to spawn from destroyed asteroids
+POWERUP_RADIUS = 15
+
+# Weapon settings
+MISSILE_TURN_SPEED = 200  # Degrees per second
+MISSILE_COOLDOWN = 5.0    # Base cooldown in seconds
+SPREAD_ANGLE = 90        # Total spread angle for 9X shot
+TRIPLE_ANGLE = 15        # Angle between triple shots
